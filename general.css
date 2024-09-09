@@ -1,0 +1,221 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f5; /* Light green background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #006400; /* Dark green */
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.headerCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
+
+.headerPic img {
+    max-width: 80px;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+/* Author section */
+.authorCon {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profilePicCon img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.arthourName h1 {
+    font-size: 1.5rem;
+    color: #006400; /* Dark green */
+}
+
+.metaData {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.metaData h3 {
+    display: inline;
+    margin-right: 10px;
+}
+
+.metaData span {
+    display: block;
+    margin-top: 5px;
+}
+
+/* Main article styling */
+.articlePost {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.postTitle {
+    font-size: 1.8rem;
+    color: #006400;
+    margin-bottom: 10px;
+}
+
+.articlePost h2 {
+    color: #006400;
+    margin-top: 20px;
+}
+
+.articlePost p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.articlePost ul.skillSet {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.articlePost ul.skillSet li {
+    margin-bottom: 8px;
+}
+
+.friends ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+/*Call to action styling*/
+.callToAction {
+    width: 80%;
+    margin: 0 auto; /* Horizontal centering */
+}
+
+/* Contact Form styling */
+.contactForm {
+    width: 80vw;
+    margin: 0 auto; /* Horizontal centering */
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contactForm label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contactForm input[type="text"],
+.contactForm input[type="email"],
+.contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contactForm input[type="submit"] {
+    background-color: #006400;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contactForm input[type="submit"]:hover {
+    background-color: #228b22; /* Lighter green */
+}
+
+/* Footer styling */
+footer {
+    background-color: #006400;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+footer .certCon img {
+    width: 100px;
+    margin: 5px;
+}
+
+footer ul.socialContact {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer ul.socialContact li {
+    margin: 0 10px;
+}
+
+footer ul.socialContact li img {
+    width: 30px;
+}
+
+footer .fellowID {
+    display: block;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .headerCon, .authorCon {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .headerPic img {
+        margin-bottom: 10px;
+    }
+
+    .profilePicCon img {
+        margin-bottom: 10px;
+    }
+
+    .authorDetail {
+        text-align: center;
+    }
+}
